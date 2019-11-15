@@ -44,11 +44,13 @@ This repo uses [tweepy](https://github.com/tweepy/tweepy) to interact with Twitt
 
 ### Insert your credentials
 
-Open `Get Flashcards.ipynb` and locate these two lines:
+Open `download.py` and locate these lines:
 
 ```
-    "auth = tweepy.OAuthHandler(consumer_key, consumer_secret) #Fill these in\n",
-    "auth.set_access_token(access_token, access_token_secret)  #Fill these in\n",
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 ```
 
 Replace the `consumer_key`, `consumer_secret`, `access_token`, and `access_token_secret` with single-quoted values from your application settings created in the previous step.
